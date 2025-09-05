@@ -259,8 +259,8 @@
         <p>
           To rigorously test our approach, we benchmarked CARE against strong baselines across a suite of demanding real-world,
           multi-hop QA tasks, including the original LLMs and other RAG methods. As shown in Table 1, CARE consistently
-          achieves state-of-the-art performance across all tested models (LLaMA-3.1 8B, Qwen2.5 7B, and Qwen2.5 14B).
-          Notably, with LLaMA-3.1 8B, CARE achieves a <strong>+15.29%</strong> average F1 improvement over the original model,
+          achieves state-of-the-art performance across all tested models (Llama-3.1 8B, Qwen2.5 7B, and Qwen2.5 14B).
+          Notably, with Llama-3.1 8B, CARE achieves a <strong>+15.29%</strong> average F1 improvement over the original model,
           with massive gains on complex datasets like 2WikiMQA (+29.42%) and MuSiQue (+18.92%).
         </p>
         
@@ -281,9 +281,9 @@
                 </tr>
               </thead>
               <tbody>
-                <!-- LLaMA-3.1 8B Results -->
+                <!-- Llama-3.1 8B Results -->
                 <tr>
-                  <td rowspan="5" style="vertical-align: middle;">LLaMA-3.1 8B</td>
+                  <td rowspan="5" style="vertical-align: middle;">Llama-3.1 8B</td>
                   <td>Original</td>
                   <td><u>45.57</u></td>
                   <td><u>54.64</u></td>
@@ -309,11 +309,11 @@
                 </tr>
                 <tr>
                   <td>CRAG</td>
-                  <td>/</td>
-                  <td>/</td>
-                  <td>/</td>
-                  <td>/</td>
-                  <td>/</td>
+                  <td>44.04</td>
+                  <td>37.88</td>
+                  <td>25.95</td>
+                  <td>24.10</td>
+                  <td>32.99</td>
                 </tr>
                 <tr>
                   <td><span style="font-size: 1.1em; font-weight: 600;">CARE</span></td>
@@ -425,7 +425,7 @@
           presents conflicting (counterfactual) information. We tested this on the CofCA benchmark. Table 2 shows that
           while traditional online search methods often degrade performance by retrieving conflicting external
           knowledge, CARE excels. It demonstrates superior context fidelity, with gains as high as
-          <strong>+13.69%</strong> on LLaMA-3.1 8B, proving its ability to ground its reasoning firmly in the provided
+          <strong>+13.69%</strong> on Llama-3.1 8B, proving its ability to ground its reasoning firmly in the provided
           text.</p>
         <!-- Table 2 -->
         <div class="container is-max-desktop" style="max-width: 500px; margin: auto;">
@@ -439,9 +439,9 @@
                 </tr>
               </thead>
               <tbody>
-                <!-- LLaMA-3.1 8B Results -->
+                <!-- Llama-3.1 8B Results -->
                 <tr>
-                  <td rowspan="3" style="vertical-align: middle;">LLaMA-3.1 8B</td>
+                  <td rowspan="3" style="vertical-align: middle;">Llama-3.1 8B</td>
                   <td>Original</td>
                   <td><u>48.14</u></td>
                 </tr>
